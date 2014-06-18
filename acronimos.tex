@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%% Como usar o pacote acronym
+% \ac{acronimo} -- Na primeira vez que for citado o acronimo, o nome completo irá aparecer
+%                  seguido do acronimo entre parênteses. Na proxima vez somente o acronimo
+%                  irá aparecer. Se usou a opção footnote no pacote, entao o nome por extenso
+%                  irá aparecer aparecer no rodapé
+%
+% \acf{acronimo} -- Para aparecer com nome completo + acronimo
+% \acs{acronimo} -- Para aparecer somente o acronimo
+% \acl{acronimo} -- Nome por extenso somente, sem o acronimo
+% \acp{acronimo} -- igual o \ac mas deixando no plural com S (ingles)
+% \acfp{acronimo}--
+% \acsp{acronimo}--
+% \aclp{acronimo}--
+%%%%%%%% ATENCAO
+% Criei o comando \acfe{}, resultando em: Extenso -- ACRO
+
+\chapter*{Lista de Abreviaturas}%
+% \addcontentsline{toc}{chapter}{Lista de abreviaturas}
+\markboth{Lista de abreviaturas}{}
+
+
+\begin{acronym}
+	\acro{IdP}{\textit{Identity Provider}}	
+	\acro{SP}{\textit{Service Provider}}
+	\acro{SSO}{\textit{Single Sign-On}}
+	\acro{RNP}{Rede Nacional de Ensino e Pesquisa}
+	\acro{UFC}{Universidade Federal do Ceará}
+	\acro{UFMG}{Universidade Federal de Minas Gerais}
+	\acro{UFF}{Universidade Federal Fluminense}
+	\acro{UFRGS}{Universidade Federal do Rio Grande do Sul}
+	\acro{CEFET-MG}{Centro Federal de Educação Tecnológica de Minas Gerais}
+	\acro{CAFe}{Comunidade Acadêmica Federada}
+	\acro{GId Lab}{Laboratório de Experimentação em Gestão de Identidades}
+	\acro{IAA}{Infraestrutura de Autenticação e Autorização}
+	\acro{ICP}{Infraestrutura de Chave Pública}
+	\acro{WAYF}{\textit{Where Are You From}}
+	\acro{DS}{\textit{Discovery Service}}
+	\acro{EDS}{\textit{Embedded Discovery Service}}
+	\acro{SAML}{\textit{Security Assertion Markup Language}}
+	\acro{URL}{\textit{Uniform Resource Locator}}
+	\acro{LDAP}{\textit{Lightweight Directory Access Protocol}}
+	\acro{CA}{\textit{Certificate Authority}}
+	\acro{XML}{\textit{Extensible Markup Language}}
+	\acro{SSTC}{\textit{Security Services Technical Committee}}
+	\acro{OASIS}{\textit{Organization for the Advancement of Structured Information Standard}}
+	\acro{SOAP}{\textit{Simple Object Access Protocol}}
+	\acro{MACE}{\textit{Middleware Architecture Committee for Education}}
+	\acro{SCHAC}{\textit{SCHema for ACademia}}
+	\acro{VoIP}{\textit{Voice over IP}}
+	\acro{TERENA}{\textit{Trans-European Research and Education Networking}}
+	\acro{NREN}{\textit{National Research and Education Network}}
+	\acro{PoP}{Ponto de Presença}
+	\acro{CSS}{\textit{Cascading Style Sheets}}
+	\acro{NTP}{\textit{Network Time Protocol}}
+	\acro{PGID}{Programa de Gestão de Identidade}
+	\acro{GT}{Grupo de Trabalho}
+	\acro{SGCI}{Sistema de Gerenciamento de Certificados Digitais ICPEdu}
+	\acro{ICPEdu}{Infraestrutura de Chaves Públicas para Ensino e Pesquisa}
+	\acro{AC}{Autoridade Certificadora}
+	\acro{GId}{Gestão de Identidade}
+	\acro{VM}{\textit{Virtual Machine}}
+	\acro{GT-STCFed}{Grupo de Trabalho Serviços para Transposição de Credenciais de Autenticação Federadas}
+	\acro{CT-GId}{Comitê Técnico de Gestão de Identidade}
+	\acro{SSL}{\textit{Secure Software Layer}}
+	\acro{TLS}{\textit{Transport Layer Security}}
+	\acro{SSH}{\textit{Secure Shell}}
+	\acro{SGC}{Serviço Gerador de Certificados}
+	\acro{SLO}{\textit{Single Logout}}
+\end{acronym}

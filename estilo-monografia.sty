@@ -1,0 +1,48 @@
+\ProvidesPackage{estilo-monografia}
+\RequirePackage[utf8x]{inputenc}
+\RequirePackage[english,brazil]{babel}
+\RequirePackage{graphicx}
+\RequirePackage{subfigure}
+\RequirePackage{url,listings,color}
+\RequirePackage{latexsym}
+\RequirePackage{abnt-alf}
+\RequirePackage{multirow}
+\RequirePackage{hyphenat}
+\usepackage[center]{caption}
+
+% ----------------------------------------------------------------%
+% LISTA DE ACRONIMOS - EMERSON
+% modifiquei o estilo do acronym original para atender 1 detalhe
+\RequirePackage[printonlyused]{acronym-emerson}
+
+% ------------------------------------------------ %
+% Comandos para inserir trechos de codigos fontes
+% ------------------------------------------------ %
+
+\renewcommand{\lstlistlistingname}{Lista de códigos}
+\renewcommand*\lstlistingname{Listagem}
+
+% comando codigo para inserir codigos fontes de programas
+% Uso: \codigo{caminho do arquivo fonte}{nome do label}{texto do caption}
+% Antes deste comando pode selecionar qual é o tipo do código fonte com os comandos
+% \java, \php ou \csh
+
+\newcommand{\codigo}[3]{
+\begin{figure}[!htpb]
+\lstinputlisting{#1}
+\caption{#3}
+\label{#2}
+\end{figure}
+}
+
+\definecolor{colBack}{rgb}{1,1,.98}
+\definecolor{colKeys}{rgb}{0,0,0}
+\definecolor{colIdentifier}{rgb}{0,0,0.9}
+\definecolor{colComments}{rgb}{.4,.4,.4}
+\definecolor{colString}{rgb}{0,0,0.6}
+
+\newcommand{\php}{\lstset{language=php,basicstyle=\ttfamily\footnotesize,tabsize=3,frame=single,showtabs=false,showspaces=false,numbers=left,numberstyle=\tiny,linewidth=0.98\linewidth,xleftmargin=21pt,tab=$\to$,float=tbph,extendedchars,breaklines,showstringspaces=false,identifierstyle=\color{colIdentifier},keywordstyle=\color{colKeys},stringstyle=\color{colString},commentstyle=\color{colComments},backgroundcolor=\color{colBack},columns=flexible,captionpos=b,aboveskip=\bigskipamount}}
+
+\newcommand{\java}{\lstset{language=Java,basicstyle=\ttfamily\footnotesize,tabsize=3,frame=single,showtabs=false,showspaces=false,numbers=left,numberstyle=\tiny,linewidth=0.98\linewidth,xleftmargin=21pt,tab=$\to$,float=tbph,extendedchars,breaklines,showstringspaces=false,identifierstyle=\color{colIdentifier},keywordstyle=\color{colKeys},stringstyle=\color{colString},commentstyle=\color{colComments},backgroundcolor=\color{colBack},columns=flexible,captionpos=b,aboveskip=\bigskipamount}}
+
+\newcommand{\csh}{\lstset{language=csh,basicstyle=\ttfamily\footnotesize,tabsize=3,frame=single,showtabs=false,showspaces=false,numbers=left,numberstyle=\tiny,linewidth=0.98\linewidth,xleftmargin=21pt,tab=$\to$,float=tbph,extendedchars,breaklines,showstringspaces=false,identifierstyle=\color{colIdentifier},keywordstyle=\color{colKeys},stringstyle=\color{colString},commentstyle=\color{colComments},backgroundcolor=\color{colBack},columns=flexible,captionpos=b,aboveskip=\bigskipamount}}

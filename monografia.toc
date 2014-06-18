@@ -1,0 +1,46 @@
+\select@language {brazil}
+\contentsline {chapter}{Lista de Figuras}{}
+\contentsline {chapter}{Lista de Tabelas}{}
+\contentsline {chapter}{Lista de Abreviaturas}{11}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {section}{\numberline {1.1}Problema de pesquisa na \IeC {\'a}rea de Gest\IeC {\~a}o de Identidade}{16}
+\contentsline {section}{\numberline {1.2}Solu\IeC {\c c}\IeC {\~a}o proposta}{16}
+\contentsline {section}{\numberline {1.3}Objetivos}{17}
+\contentsline {section}{\numberline {1.4}Estrutura do trabalho}{17}
+\contentsline {chapter}{\numberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica}{19}
+\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{19}
+\contentsline {section}{\numberline {2.2}Gest\IeC {\~a}o de Identidades}{19}
+\contentsline {subsection}{\numberline {2.2.1}Modelos de gest\IeC {\~a}o de identidade}{22}
+\contentsline {section}{\numberline {2.3}Especifica\IeC {\c c}\IeC {\~o}es SAML}{24}
+\contentsline {subsection}{\numberline {2.3.1}Componentes SAML}{25}
+\contentsline {section}{\numberline {2.4}Framework Shibboleth}{28}
+\contentsline {subsection}{\numberline {2.4.1}Esquema brEduPerson}{29}
+\contentsline {subsubsection}{Estrutura do esquema brEduPerson}{30}
+\contentsline {subsubsection}{eduPerson e brEduPerson}{31}
+\contentsline {subsection}{\numberline {2.4.2}Provedores Shibboleth}{32}
+\contentsline {chapter}{\numberline {3}Federa\IeC {\c c}\IeC {\~a}o CAFe}{35}
+\contentsline {section}{\numberline {3.1}Como funciona}{35}
+\contentsline {section}{\numberline {3.2}Servi\IeC {\c c}os dispon\IeC {\'\i }veis}{36}
+\contentsline {section}{\numberline {3.3}Acordos internacionais}{37}
+\contentsline {subsection}{\numberline {3.3.1}EduGAIN}{38}
+\contentsline {subsection}{\numberline {3.3.2}REFEDS}{39}
+\contentsline {chapter}{\numberline {4}Federa\IeC {\c c}\IeC {\~a}o CAFe Expresso}{40}
+\contentsline {section}{\numberline {4.1}Vis\IeC {\~a}o geral da solu\IeC {\c c}\IeC {\~a}o proposta}{41}
+\contentsline {section}{\numberline {4.2}Tecnologias e ferramentas utilizadas}{43}
+\contentsline {subsection}{\numberline {4.2.1}Framework Shibboleth}{43}
+\contentsline {subsection}{\numberline {4.2.2}Apache web-server}{44}
+\contentsline {subsection}{\numberline {4.2.3}OpenSSL}{44}
+\contentsline {subsection}{\numberline {4.2.4}Apache Tomcat}{44}
+\contentsline {subsection}{\numberline {4.2.5}OpenJDK}{45}
+\contentsline {subsection}{\numberline {4.2.6}OpenLDAP}{45}
+\contentsline {subsection}{\numberline {4.2.7}Bibliotecas de Desenvolvimento}{45}
+\contentsline {section}{\numberline {4.3}CAFe Expresso}{46}
+\contentsline {subsection}{\numberline {4.3.1}Hardware e Sistema Operacional}{47}
+\contentsline {subsection}{\numberline {4.3.2}Identity Provider - IdP}{48}
+\contentsline {subsection}{\numberline {4.3.3}Service Provider - SP}{50}
+\contentsline {subsection}{\numberline {4.3.4}Servi\IeC {\c c}os adicionais}{51}
+\contentsline {subsubsection}{WAYF}{51}
+\contentsline {subsubsection}{Embedded Discovery Service}{53}
+\contentsline {subsubsection}{uApprove}{54}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~o}es}{57}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{59}
